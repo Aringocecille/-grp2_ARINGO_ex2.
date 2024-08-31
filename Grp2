@@ -1,0 +1,85 @@
+# Task 1: Arithmetic Operations
+print("\nTask 1: Arithmetic Operations")
+
+# Assign integer values to variables
+a = 7  # integer value 7
+b = 4  # integer value 4
+
+# Performing arithmetic operations
+addition = a + b
+subtraction = a - b
+multiplication = a * b
+division = a / b
+modulus = a % b
+exponent = a ** b
+
+# Printing results
+print(f"Addition: {a} + {b} = {addition}")
+print(f"Subtraction: {a} - {b} = {subtraction}")
+print(f"Multiplication: {a} * {b} = {multiplication}")
+print(f"Division: {a} / {b} = {division}")
+print(f"Modulus: {a} % {b} = {modulus}")
+print(f"Exponent: {a} ** {b} = {exponent}")
+
+# Define the variables
+a = 7
+b = 4
+
+# addition
+print('Sum: ', a + b)  # Output: Sum: 11
+
+# subtraction
+print('Subtraction: ', a - b)   # Output: Subtraction: 3
+
+# multiplication
+print('Multiplication: ', a * b)  # Output: Multiplication: 28
+
+# division
+print('Division: ', a / b)  # Output: Division: 1.75
+
+# Define the variables
+a = 7
+b = 4
+
+# floor division (integer division)
+print('Floor Division: ', a // b)  # Output: Floor Division: 1
+
+# modulo (remainder)
+print('Modulo: ', a % b)  # Output: Modulo: 3
+
+# a to the power b (exponentiation)
+print('Power: ', a ** b)  # Output: Power: 2401
+
+print("\nTask 2: Integer Literals with Underscores")
+
+# Assign an integer value to num1 using underscores for readability
+num1 = 25_000_000  # with underscores
+
+# Assign the same integer value to num2 without using underscores
+num2 = 25000000  # without underscores
+
+# Print num1 and num2 on two separate lines
+print(num1)  # Output: 25000000
+print(num2)  # Output: 25000000
+
+print("\nTask 3: Data Types")
+
+# Assign an integer value to num1
+num1 = 5
+# Print the value and data type of num1
+print(num1, 'is of type', type(num1))  # Output: 5 is of type <class 'int'>
+
+# Assign a floating-point value to num2
+num2 = 2.0
+# Print the value and data type of num2
+print(num2, 'is of type', type(num2))  # Output: 2.0 is of type <class 'float'>
+
+# Assign a complex number value to num3
+num3 = 1 + 2j
+# Print the value and data type of num3
+print(num3, 'is of type', type(num3))  # Output: (1+2j) is of type <class 'complex'>
+
+
+
+
+
